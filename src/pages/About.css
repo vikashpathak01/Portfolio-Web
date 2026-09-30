@@ -1,0 +1,56 @@
+.About-Main-Container {
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    margin-top: 100px;
+}
+
+.About-Container{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    gap: 25px;
+
+}
+
+.About-Info{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.About-Info-Header{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 0.8;
+
+}
+
+.About-Info-Para{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.7;
+}
+
+.About-Me{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      opacity: 0.8;
+}
+
+.About-More{
+    width: 135px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(221, 209, 77);
+    color:  rgb(221, 209, 77);
+    padding-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+   .About-Container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+}
