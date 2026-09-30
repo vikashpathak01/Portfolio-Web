@@ -82,6 +82,10 @@
 
 }
 
+.Project-Information-Img img{
+    width: 450px;
+}
+
 @media (max-width:768px) {
     .Project-Card {
         flex-direction: column;
