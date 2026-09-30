@@ -46,13 +46,13 @@ const Projects = () => {
               </div>
             </div>
             <div className="Project-link">
-              <a href="">
+              <a href="order-cart-inky.vercel.app">
                 <span>LIVE DEMO</span>
                 <span>
                   <ArrowUpRight />
                 </span>
               </a>
-              <a href="">
+              <a href="https://github.com/vikashpathak01/Order-Cart">
                 <span>SEE ON GITHUB</span>
                 <span>
                   <FaGithub />
