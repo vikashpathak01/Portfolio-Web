@@ -3,7 +3,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
-import resume from "../assets/vikashcv.pdf"
+import resume from "../assets/vikashcv.pdf";
 
 const Contact = () => {
   return (
@@ -13,16 +13,13 @@ const Contact = () => {
           <h1>Let’s connect</h1>
           <div>
             <span className="Contact-Mail">Say hello at</span>{" "}
-            <a href="mailto:vikashpathak100v@gmail.com" className="Mail">
+            <a href="#" className="Mail">
               vikashpathak100v@gmail.com
             </a>
           </div>
           <div>
             <span className="Contact-Resume"> For more info, here’s my </span>
-            <a
-              href={resume} download
-              className="resume"
-            >
+            <a href={resume} download className="resume">
               resume
             </a>
           </div>
@@ -30,7 +27,11 @@ const Contact = () => {
             <a href="">
               <FaLinkedinIn />
             </a>
-            <a href="">
+            <a
+              href="https://github.com/vikashpathak01"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <IoLogoGithub />
             </a>
             <a href="">

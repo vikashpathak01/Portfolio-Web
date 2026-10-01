@@ -1,5 +1,6 @@
 import "./Projects.css";
 import project1 from "../assets/image 10.png";
+import port from "../assets/portfolio.png";
 import ecom from "../assets/ecom.png";
 import { FaGithub } from "react-icons/fa6";
 import { ArrowUpRight } from "lucide-react";
@@ -67,7 +68,7 @@ const Projects = () => {
         {/* project2 */}
         <div className="Project-Card">
           <div className="Project-Information-Img">
-            <img src={project1} alt="" />
+            <img src={port} alt="" />
           </div>
           <div className="Project-Details ">
             <p className="Project-Title">
