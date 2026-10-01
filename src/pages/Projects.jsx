@@ -98,59 +98,21 @@ const Projects = () => {
               </div>
             </div>
             <div className="Project-link">
-              <a href="https://portfolio-web-swart-tau.vercel.app">
+              <a
+                href="https://portfolio-web-swart-tau.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span>LIVE DEMO</span>
                 <span>
                   <ArrowUpRight />
                 </span>
               </a>
-              <a href="https://github.com/vikashpathak01/Portfolio-Web">
-                <span>SEE ON GITHUB</span>
-                <span>
-                  <FaGithub />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* project3 */}
-        <div className="Project-Card">
-          <div className="Project-Information-Img">
-            <img src={project1} alt="" />
-          </div>
-          <div className="Project-Details ">
-            <p className="Project-Title">
-              Promotional landing page for our favorite show
-            </p>
-            <p className="Project-Description">
-              Teamed up with a designer to breathe life into a promotional
-              webpage for our beloved show, Adventure Time. Delivered a fully
-              responsive design with dynamic content capabilities, seamlessly
-              integrating a newsletter feature to keep fans updated with the
-              latest adventures.
-            </p>
-            <div className="Project-Info-Container">
-              <p className="Project-Info">Project Info</p>
-              <div className="Project-Info-Details">
-                <div className="space-between">
-                  <span>Year</span>
-                  <span>2026</span>
-                </div>
-                <div className="space-between">
-                  <span>Role</span>
-                  <span>Front-end Developer</span>
-                </div>
-              </div>
-            </div>
-            <div className="Project-link">
-              <a href="">
-                <span>LIVE DEMO</span>
-                <span>
-                  <ArrowUpRight />
-                </span>
-              </a>
-              <a href="">
+              <a
+                href="https://github.com/vikashpathak01/Portfolio-Web"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span>SEE ON GITHUB</span>
                 <span>
                   <FaGithub />
