@@ -72,14 +72,17 @@ const Projects = () => {
           </div>
           <div className="Project-Details ">
             <p className="Project-Title">
-              Promotional landing page for our favorite show
+              Vikash Portfolio — Developer Portfolio
             </p>
             <p className="Project-Description">
-              Teamed up with a designer to breathe life into a promotional
-              webpage for our beloved show, Adventure Time. Delivered a fully
-              responsive design with dynamic content capabilities, seamlessly
-              integrating a newsletter feature to keep fans updated with the
-              latest adventures.
+              A personal developer portfolio website built with React.js and
+              Vite. The project showcases my skills, projects, and frontend
+              development journey through a clean and responsive interface. It
+              includes sections for my introduction, skills, projects, and
+              contact information, along with navigation for easy access to
+              different sections of the website. The project focuses on reusable
+              React components, responsive layouts, and a simple user-friendly
+              design.
             </p>
             <div className="Project-Info-Container">
               <p className="Project-Info">Project Info</p>
@@ -95,13 +98,13 @@ const Projects = () => {
               </div>
             </div>
             <div className="Project-link">
-              <a href="">
+              <a href="https://portfolio-web-swart-tau.vercel.app">
                 <span>LIVE DEMO</span>
                 <span>
                   <ArrowUpRight />
                 </span>
               </a>
-              <a href="">
+              <a href="https://github.com/vikashpathak01/Portfolio-Web">
                 <span>SEE ON GITHUB</span>
                 <span>
                   <FaGithub />
