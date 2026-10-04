@@ -1,5 +1,5 @@
 import "./Projects.css";
-import project1 from "../assets/image 10.png";
+import landing from "../assets/secondpr.png";
 import port from "../assets/portfolio.png";
 import ecom from "../assets/ecom.png";
 import { FaGithub } from "react-icons/fa6";
@@ -66,6 +66,54 @@ const Projects = () => {
         </div>
 
         {/* project2 */}
+        <div className="Project-Card">
+          <div className="Project-Information-Img">
+            <img src={landing} alt="" />
+          </div>
+          <div className="Project-Details ">
+            <p className="Project-Title">Travel Landing Page</p>
+            <p className="Project-Description">
+              A responsive travel landing page built with React.js and
+              Vite. It has a simple and clean design with a navigation bar,
+              hero section, destination cards, and travel information. The
+              website is designed to work well on different screen sizes and
+              uses reusable React components. Technologies: React.js, Vite,
+              JavaScript, CSS, Lucide React.
+            </p>
+            <div className="Project-Info-Container">
+              <p className="Project-Info">Project Info</p>
+              <div className="Project-Info-Details">
+                <div className="space-between">
+                  <span>Year</span>
+                  <span>2026</span>
+                </div>
+                <div className="space-between">
+                  <span>Role</span>
+                  <span>Front-end Developer</span>
+                </div>
+              </div>
+            </div>
+            <div className="Project-link">
+              <a href="https://travel-landing-pag-tau.vercel.app" target="_blank">
+                <span>LIVE DEMO</span>
+                <span>
+                  <ArrowUpRight />
+                </span>
+              </a>
+              <a
+                href="https://github.com/vikashpathak01/travel-landing-page"
+                target="_blank"
+              >
+                <span>SEE ON GITHUB</span>
+                <span>
+                  <FaGithub />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* project3 */}
         <div className="Project-Card">
           <div className="Project-Information-Img">
             <img src={port} alt="" />
