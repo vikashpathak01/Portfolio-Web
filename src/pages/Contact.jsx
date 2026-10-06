@@ -24,7 +24,11 @@ const Contact = () => {
             </a>
           </div>
           <div className="Contact-Social-Links">
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/vikashkumarpathak/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedinIn />
             </a>
             <a
@@ -34,10 +38,17 @@ const Contact = () => {
             >
               <IoLogoGithub />
             </a>
-            <a href="">
+            <a href="https://x.com/VikashPath23554"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
               <FaXTwitter />
             </a>
-            <a href="">
+            <a
+              href="https://www.instagram.com/vikash_pathak01?stkn=MXQ1M2dtcHJnNzg2cg=="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram />
             </a>
           </div>

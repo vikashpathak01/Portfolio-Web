@@ -2,7 +2,6 @@
     background-color: black;
     height: calc(100vh - 140px);
     color: white;
-
 }
 
 .Home-Container {
@@ -16,15 +15,12 @@
     padding: 0 18px;
 }
 
-
-
 .Picture {
     width: 400px;
 }
 
 .Home-Container {
     display: flex;
-
 }
 
 .Home-Text-Container {
@@ -51,7 +47,6 @@
     display: flex;
     gap: 15px;
     align-items: center;
-
 }
 
 .contact-me {
@@ -78,7 +73,6 @@
     align-items: center;
     transition: transform 0.3s ease-out;
     justify-content: center;
-
 }
 
 .Move-Up:hover {
@@ -87,7 +81,6 @@
 
 .Move-Up-Right {
     height: 7px;
-
     width: 7px;
     /* transition: all 0.3s ease-out; */
     transition: transform 0.3s ease-out;
@@ -185,6 +178,11 @@
     .Home-Container {
         padding: 0px 10px;
     }
+
+.Home-Main-Container {
+    height: fit-content;
+     margin-bottom: 20px;
+}
 
     .Picture {
         width: 100%;
