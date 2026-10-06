@@ -120,13 +120,14 @@
 }
 
 
+
 .Download-Button-Container {
     display: flex;
     align-items: center;
     background-color: rgb(118, 115, 69);
     padding: 12px 20px;
     border-radius: 20px;
-    width: 160px;
+    width: fit-content;
     
     gap: 10px;
 }
